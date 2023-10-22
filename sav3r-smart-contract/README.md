@@ -1,66 +1,21 @@
-## Foundry
+Sav3r smart contract - Scroll & Ethereum :
+Deployed on Goerli testnet :
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
-
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
+```
+Deployed to: 0x45a5672fD91c7aaDFc69daF65bE16f20d555e2Be
+Transaction hash: 0xb44bf3d07fc1f92334e66cb539071b51d036da509bf2dfcb15b1b0ca5fc41579
 ```
 
-### Test
 
-```shell
-$ forge test
+Deployed on Scroll Sepolia testnet :
+
+``` 
+Deployer :0xBb9252526887C6caa5D049Fad4c384081e6295e4
+Transaction hash: 0xb44bf3d07fc1f92334e66cb539071b51d036da509bf2dfcb15b1b0ca5fc41579
 ```
 
-### Format
+The smart contract in sav3r-smart-contract/src/Sav3rStacking.sol, allow to stake the ERC-20 from the ApeCoinStaking.sol smart contract. The user will be able to
 
-```shell
-$ forge fmt
-```
+Swap his USDC token for BAYC token
 
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+Stake his BAYC token in order to grab his token
