@@ -1,3 +1,6 @@
 [submodule "sav3r-smart-contract/lib/forge-std"]
 	path = sav3r-smart-contract/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "sav3r-smart-contract/lib/openzeppelin-contracts"]
+	path = sav3r-smart-contract/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
