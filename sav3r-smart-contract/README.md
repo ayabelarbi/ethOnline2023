@@ -16,6 +16,6 @@ Transaction hash: 0xb44bf3d07fc1f92334e66cb539071b51d036da509bf2dfcb15b1b0ca5fc4
 
 The smart contract in sav3r-smart-contract/src/Sav3rStacking.sol, allow to stake the ERC-20 from the ApeCoinStaking.sol smart contract. The user will be able to
 
-Swap his USDC token for BAYC token
+- Swap his USDC token for BAYC token
 
-Stake his BAYC token in order to grab his token
+- Stake his BAYC token in order to grab his token
